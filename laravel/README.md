@@ -17,15 +17,17 @@ The Laravel MVC basics includes an example of all of the files that you'll need 
 
 ## [Laravel Themeforest Theme Integration](themeforest-theme-integration/)
 
-For many applications, you'll want to have a UI that's more advanced than the base Bootstrap style elements. [Themeforest](https://themeforest.net/category/site-templates/admin-templates) is a website with a gallery of purchasable HTML themes for front-end or admin/back-end applications. With most priced at a reasonable $15-50, they save you a lot of time with having to build your own UI theme that can take tens or hundreds of hours.
+For many applications, you'll want to have a UI that's more advanced than the base Bootstrap style elements. 
 
-If you're looking for free themes, there are a lot of options available (updated August 2017). 
-[Bootswatch](https://bootswatch.com/)
-[Start Bootstrap](https://startbootstrap.com/template-categories/all/)
-[Admin LTE](https://adminlte.io/)
-[Bootstrap Made](https://bootstrapmade.com/)
-[Bootstrap Taste](https://bootstraptaste.com/)
-[Theme Wagon](https://themewagon.com/theme_tag/free/)
+[Themeforest](https://themeforest.net/category/site-templates/admin-templates) is a website with a gallery of purchasable HTML themes for front-end or admin/back-end applications. With most priced at a reasonable $15-50, they save you a lot of time with having to build your own UI theme that can take tens or hundreds of hours.
+
+If you're looking for free themes, there are a lot of options available (updated August 2017)
+* [Bootswatch](https://bootswatch.com/)
+* [Start Bootstrap](https://startbootstrap.com/template-categories/all/)
+* [Admin LTE](https://adminlte.io/)
+* [Bootstrap Made](https://bootstrapmade.com/)
+* [Bootstrap Taste](https://bootstraptaste.com/)
+* [Theme Wagon](https://themewagon.com/theme_tag/free/)
 
 _If you'd like to add a link to this list, please add a comment or submit a pull request._
 
