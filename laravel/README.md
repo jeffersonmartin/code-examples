@@ -1,6 +1,8 @@
 # Laravel PHP Code Examples
 
-## [Laravel MVC Basics](mvc-basics/)
+## [Laravel MVC Basics]
+
+[mvc-basics/](mvc-basics/)
 
 The Laravel MVC basics includes an example of all of the files that you'll need to create for each database table when building a basic Laravel application.
 
@@ -15,7 +17,9 @@ The Laravel MVC basics includes an example of all of the files that you'll need 
 * [View - Delete](mvc-basics/resources/views/admin/sales/customer/delete.blade.php)
 * [View - Restore](mvc-basics/resources/views/admin/sales/customer/restore.blade.php)
 
-## [Laravel Themeforest Theme Integration](themeforest-theme-integration/)
+## [Laravel Themeforest Theme Integration]
+
+[themeforest-theme-integration/](themeforest-theme-integration/)
 
 For many applications, you'll want to have a UI that's more advanced than the base Bootstrap style elements. 
 
@@ -33,14 +37,16 @@ _If you'd like to add a link to this list, please add a comment or submit a pull
 
 Just keep in mind that you get what you pay for, so for personal pet projects using a free theme is fine. If you're getting paid for the work you're doing, you should pay for a theme (or build one yourself).
 
-## [Package Scaffolding](package-scaffolding/)
+## [Package Scaffolding]
+
+[package-scaffolding/](package-scaffolding/)
 
 The package scaffolding includes an easy-to-navigate folder structure and base files for creating a package in Laravel PHP. This approach of creating folders for each type of file allows you to scale easier when you're working with 10+ database tables in a package.
 
-## [Account Package](account-package/)
+## [Account Package]
 
 Coming soon
 
-## [Sales Order Package](sales-order-package/)
+## [Sales Order Package]
 
 Coming soon
