@@ -2,7 +2,7 @@
 
 @section('subnav')
 
-    @include('event::nav')
+    @include('-package-::admin.nav')
 
 @endsection
 
