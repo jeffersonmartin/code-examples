@@ -1,0 +1,23 @@
+{
+    "name": "-githubaccount-/-githubpackage-",
+    "description": "My Package Name",
+    "authors": [
+        {
+            "name": "John Doe",
+            "email": "john@doe.com",
+            "homepage": "https://github.com/-githubaccount-"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.4.*",
+        "ramsey/uuid": "^3.3"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "-NAMESPACE-\\-PACKAGE-\\": "src/"
+        }
+    }
+}
