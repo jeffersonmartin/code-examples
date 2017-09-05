@@ -2,6 +2,12 @@
 # Run the following commands to create a database migration file, which is a
 # abstraction layer recipe for Laravel to perform a CREATE TABLE query.
 
+# Navigate to the migrations folder
+cd ~/Sites/presentation/mvc-basics/database/mgirations/
+
+# Delete the existing default template migrations
+rm *
+
 # Navigate to the top directory of your Laravel application
 cd ~/Sites/presentation/mvc-basics
 
