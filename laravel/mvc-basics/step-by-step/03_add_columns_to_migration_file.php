@@ -6,9 +6,10 @@
 
 public function up()
     {
-        // Table columns
-        $table->increments('id');
-        $table->string('ticketholder_name')->nullable();
-        $table->decimal('ticket_price', 10, 2)->default(0.00);
-        $table->timestamps();
+        Schema::create('event_tickets', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('ticketholder_name')->nullable();
+            $table->decimal('ticket_price', 10, 2)->default(0.00);
+            $table->timestamps();
+        });
     }
