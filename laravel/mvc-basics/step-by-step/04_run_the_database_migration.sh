@@ -5,6 +5,9 @@
 # Navigate to the top directory of your Laravel application
 cd ~/Sites/presentation/mvc-basics
 
+# You can review the migrations before they've run using the following command
+php artisan migrate:status
+
 # Use artisan to run your database migrations
 php artisan migrate
 
