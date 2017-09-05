@@ -2,20 +2,17 @@
 
 ## Laravel MVC Basics
 
-[mvc-basics/](mvc-basics/)
+[mvc-basics/](https://github.com/jeffersonmartin/code-examples/tree/master/laravel/mvc-basics)
 
 The Laravel MVC basics includes an example of all of the files that you'll need to create for each database table when building a basic Laravel application.
 
-* [Controller](mvc-basics/app/Http/Controllers/SalesCustomerController.php)
-* [Database Migration](mvc-basics/database/2017_08_20_000001_create_sales_customer_controller.php)
-* [Model](mvc-basics/app/SalesCustomer.php)
-* [Routes](mvc-basics/routes/web.php)
-* [View - Index](mvc-basics/resources/views/admin/sales/customer/index.blade.php)
-* [View - Show](mvc-basics/resources/views/admin/sales/customer/show.blade.php)
-* [View - Create](mvc-basics/resources/views/admin/sales/customer/create.blade.php)
-* [View - Edit](mvc-basics/resources/views/admin/sales/customer/edit.blade.php)
-* [View - Delete](mvc-basics/resources/views/admin/sales/customer/delete.blade.php)
-* [View - Restore](mvc-basics/resources/views/admin/sales/customer/restore.blade.php)
+* [Controller](https://github.com/jeffersonmartin/code-examples/blob/master/laravel/mvc-basics/example-code/app/Http/Controllers/EventTicketController.php)
+* [Database Migration](https://github.com/jeffersonmartin/code-examples/blob/master/laravel/mvc-basics/example-code/database/migrations/2017_09_05_024329_create_event_tickets_table.php)
+* [Model](https://github.com/jeffersonmartin/code-examples/blob/master/laravel/mvc-basics/example-code/app/EventTicket.php)
+* [Routes](https://github.com/jeffersonmartin/code-examples/blob/master/laravel/mvc-basics/example-code/routes/web.php)
+* [View - Index](https://github.com/jeffersonmartin/code-examples/blob/master/laravel/mvc-basics/example-code/resources/views/event/tickets/index.blade.php)
+* [View - Create](https://github.com/jeffersonmartin/code-examples/blob/master/laravel/mvc-basics/example-code/resources/views/event/tickets/create.blade.php)
+* [View - Edit](https://github.com/jeffersonmartin/code-examples/blob/master/laravel/mvc-basics/example-code/resources/views/event/tickets/edit.blade.php)
 
 ## Laravel Themeforest Theme Integration
 
@@ -39,7 +36,7 @@ Just keep in mind that you get what you pay for, so for personal pet projects us
 
 ## Package Scaffolding
 
-[package-scaffolding/](package-scaffolding/)
+[package-scaffolding/](https://github.com/jeffersonmartin/code-examples/tree/master/laravel/package-scaffolding)
 
 The package scaffolding includes an easy-to-navigate folder structure and base files for creating a package in Laravel PHP. This approach of creating folders for each type of file allows you to scale easier when you're working with 10+ database tables in a package.
 
