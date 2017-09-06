@@ -1,7 +1,7 @@
 <?php
 // ~/Sites/presentation/mvc-basics/app/Http/Controllers/EventTicketController.php
-// Using your text editor, add the following method (public function) below the
-// existing create() method.
+// Using your text editor, locate the store() function and replace the `//` placeholder
+// comment with the following code.
 
 public function store(Request $request)
 {
