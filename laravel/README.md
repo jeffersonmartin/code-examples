@@ -4,6 +4,8 @@
 
 [mvc-basics/](https://github.com/jeffersonmartin/code-examples/tree/master/laravel/mvc-basics)
 
+[Presentation Slides](https://docs.google.com/presentation/d/1_cHq0Vq_jyVtoye3y93_x3_-WRyrPfUuSrqE6b7j0FU/edit?usp=sharing)
+
 The Laravel MVC basics includes an example of all of the files that you'll need to create for each database table when building a basic Laravel application.
 
 * [Controller](https://github.com/jeffersonmartin/code-examples/blob/master/laravel/mvc-basics/example-code/app/Http/Controllers/EventTicketController.php)
@@ -14,9 +16,9 @@ The Laravel MVC basics includes an example of all of the files that you'll need 
 * [View - Create](https://github.com/jeffersonmartin/code-examples/blob/master/laravel/mvc-basics/example-code/resources/views/event/tickets/create.blade.php)
 * [View - Edit](https://github.com/jeffersonmartin/code-examples/blob/master/laravel/mvc-basics/example-code/resources/views/event/tickets/edit.blade.php)
 
-## Laravel Themeforest Theme Integration
+## Laravel Theme Integration
 
-[themeforest-theme-integration/](themeforest-theme-integration/)
+[theme-integration/adminlte](https://github.com/jeffersonmartin/code-examples/tree/master/laravel/theme-integration/adminlte/v2.3.11)
 
 For many applications, you'll want to have a UI that's more advanced than the base Bootstrap style elements. 
 
