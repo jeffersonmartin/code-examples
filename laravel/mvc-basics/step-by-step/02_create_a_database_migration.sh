@@ -3,7 +3,7 @@
 # abstraction layer recipe for Laravel to perform a CREATE TABLE query.
 
 # Navigate to the migrations folder
-cd ~/Sites/presentation/mvc-basics/database/mgirations/
+cd ~/Sites/presentation/mvc-basics/database/migrations/
 
 # Delete the existing default template migrations
 rm *
