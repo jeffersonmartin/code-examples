@@ -8,6 +8,8 @@
     <td>{{ $ticket->ticketholder_name }}</td>
     <td>{{ $ticket->ticket_price }}</td>
     <td>
-        <a href="{{ route('event.tickets.edit', ['id' => $ticket->id]) }}">Edit</a>
+        <div class"btn-group">
+            <a class="btn btn-info" href="{{ route('event.tickets.edit', ['id' => $ticket->id]) }}">Edit</a>
+        </div>
     </td>
 </tr>

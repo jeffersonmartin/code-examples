@@ -9,33 +9,27 @@
 </head>
 <body>
 
-    <form method="post" action="{{ route('event.tickets.update', ['id' => $ticket->id]) }}">
+    <form class="form-horizontal" method="post" action="{{ route('event.tickets.update', ['id' => $ticket->id]) }}">
     {{ csrf_field() }}
 
         <div class="form-group">
-            <div class="col-sm-3">
-                Ticketholder ID
-            </div>
+            <label for="event_ticket_id" class="col-sm-3 control-label">Ticketholder ID</label>
             <div class="col-sm-9">
                 <code>{{ $ticket->id }}</code>
             </div>
         </div>
 
         <div class="form-group">
-            <div class="col-sm-3">
-                Ticketholder Name
-            </div>
+            <label for="ticketholder_name" class="col-sm-3 control-label">Ticketholder Name</label>
             <div class="col-sm-9">
                 <input type="text" class="form-control" name="ticketholder_name" value="{{ $ticket->ticketholder_name }}" />
             </div>
         </div>
 
         <div class="form-group">
-            <div class="col-sm-3">
-                Ticket Price
-            </div>
+            <label for="ticket_price" class="col-sm-3 control-label">Ticket Price</label>
             <div class="col-sm-9">
-                $ <input type="text" class="form-control" name="ticket_price" style="width: 150px;"  value="{{ $ticket->ticket_price }}"/>
+                $ <input type="text" class="form-control" name="ticket_price" style="width: 150px; display: inline;" value="{{ $ticket->ticket_price }}" />
             </div>
         </div>
 

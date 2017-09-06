@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <table>
+    <table class="table table-bordered table-striped">
         <thead>
             <tr>
                 <th>ID</th>
@@ -30,7 +30,9 @@
                 <td>{{ $ticket->ticketholder_name }}</td>
                 <td>{{ $ticket->ticket_price }}</td>
                 <td>
-                    {{-- Placeholder --}}
+                    <div class="btn-group">
+                        {{-- Placeholder --}}
+                    </div>
                 </td>
             </tr>
 

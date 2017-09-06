@@ -7,4 +7,4 @@
 cd ~/Sites/presentation/mvc-basics
 
 # Use the artisan make command to create a new controller file.
-php artisan make:controller EventTicketController
+php artisan make:controller --resource EventTicketController
