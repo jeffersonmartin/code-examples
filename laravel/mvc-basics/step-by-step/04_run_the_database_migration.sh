@@ -6,6 +6,7 @@
 cd ~/Sites/presentation/mvc-basics
 
 # You can review the migrations before they've run using the following command
+php artisan migrate:install
 php artisan migrate:status
 
 # Use artisan to run your database migrations
